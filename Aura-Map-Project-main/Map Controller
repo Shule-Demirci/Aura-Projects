@@ -1,0 +1,17 @@
+({
+    init: function (cmp, event, helper) {
+        cmp.set('v.mapMarkers', [
+            {
+                location: {
+                    Street: '23203 Bulverde Rd',
+                    City: ' San Antonio',
+                    State: 'TX'
+                },
+
+                title: 'The White House',
+                description: 'Great School!'
+            }
+        ]);
+        cmp.set('v.zoomLevel', 16);
+    }
+});
